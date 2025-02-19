@@ -1,18 +1,18 @@
-todo-list-spa/
+```
+taskly/
 │── public/           
 │   ├── index.html               
 │   ├── styles.css             
 │   ├── App.js                 
 │── src/
 │   ├── components/            
-│   │   ├── TodoItem.js         
-│   │   ├── TodoList.js     
-│   │   ├── AddTodoForm.js    
+│   │   ├── form.js         
+│   │   ├── task.js     
 │   ├── services/                # Data Management
-│   │   ├── storage.js           # LocalStorage/IndexedDB service
-│   │   ├── api.js               # If using backend API
+│   │   ├── local.js             # LocalStorage              
 │   ├── utils/                   # Helper functions
 │── server/                      # Backend (if needed)
-│   ├── server.js                # Express.js or FastAPI backend
+│   ├── server.js               
 │── package.json                 # Dependencies
 │── README.md                    # Documentation
+```
