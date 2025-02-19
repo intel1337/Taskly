@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Taskly</title>
+</head>
+<body>
+
+    <div class="form">
+        <input  name="text" id="text" placeholder="Titre :">
+        <input  name="" id="desc" placeholder="Description">
+        <button type="submit" id="submit">Submit</button>
+    </div>
+
+    <div class="head">
+        <h1>Taskly</h1><i class="fa fa-check-square-o" style="font-size:36px;margin-left: 10px; margin-top: 5px;"></i>
+        <button id="darkMode"><i class="fa fa-moon-o" style="font-size:20px;color:white;"></i></button>
+    </div>
+    <div class="searchbar">
+        <input type="search" name="search" id="search" placeholder="Search...">
+        <i class="fa fa-search" style="font-size:23px;color:rgb(255, 255, 255)"></i>
+    </div>
+
+    
+    <template>
+        <div class="case">
+            <p></p>
+            <div class="check">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <button id="supp_element">X</button>
+            </div>
+    </div>
+</template>
+    <footer>
+        <button id="add"><i class="fa fa-plus-circle" style="font-size:30px;color:rgb(255, 255, 255)"></i></button>
+    </footer>
+
+</body>
+<script type="module" src="App.js"></script>
+</html>
