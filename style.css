@@ -38,7 +38,7 @@ body.dark-mode {
     max-width: 100%;
     height: 40px;
     transition: 0.8s;
-
+    box-shadow: 0 0 10px black
 }
 #darkMode:hover{
     background-color: #18375d;
@@ -55,6 +55,7 @@ body.dark-mode {
     color: #4A90E2;
     font-family: Inter;
     transition: color 0.3s;
+    
 }
 
 .dark-mode .head {
@@ -77,15 +78,18 @@ body.dark-mode {
     padding-left: 10px;
     border-radius: 10px;
     padding-bottom: 3%;
+    box-shadow: 0 0 10px black
 }
 .dark-mode .searchbar{
     background-color: #1280ff;
+    
 }
 
 .searchbar i {
     margin-top: 30%;
-
+    text-shadow: 0 0 3px black;
     right: 0;
+    
 
 }
 .searchbar:hover{
@@ -127,12 +131,20 @@ template {
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: rgb(196, 196, 196);
     color: #4A90E2;
     font-family: Inter;
     transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 0 10px black
 }
 
+.case h1 {
+    font-size: 20px;
+    padding-right: 5%;
+}
+.case p {
+    font-size: 16px;
+}
 .dark-mode .case {
     background-color: #333;
     color: white;
@@ -141,12 +153,35 @@ template {
     border: none;
     font-size: 16px;
     background-color: #ffffff;
+    transition: 0.3s;
 
+}
+
+#supp_element {
+    margin-top: 48%;
+    background-color: rgb(196, 196, 196);
+    font-size: 32px;
+    color: #4A90E2;
+    transition: 0.3s;
+}
+#supp_element:hover {
+    color: #e03535;
+    scale: 1.1;
+}
+.dark-mode #supp_element {
+    background-color: #333;
+    font-size: 32px;
+    color: #4A90E2;
+    transition: 0.3s;
+}
+.dark-mode #supp_element:hover {
+    color: #e03535;
+    scale: 1.1;
 }
 
 footer{
     
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -174,6 +209,7 @@ footer button {
     background-color: #1280ff;
     border-radius: 1rem;
     transition: background-color 0.3s;
+    box-shadow: 0 0 10px black
 }
 
 .dark-mode footer button {
@@ -185,9 +221,7 @@ footer button:hover{
     background-color: #1280ff;
 
 }
-#checkbox{
-    background-color: aqua;
-}
+
 
 .form {
     display: grid;
@@ -217,3 +251,72 @@ footer button:hover{
     outline: none;
 
 }
+
+
+
+.container {
+    margin-right: 5%;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #0655ffd2;
+    border: white 1px solid;
+  }
+  
+
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  
