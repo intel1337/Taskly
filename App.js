@@ -1,24 +1,13 @@
-import { component } from "./src/components/form.js"
-import { Local } from "./src/services/db/local.js"
+import { Local } from "./src/services/db/Local.js"
+import { onStart } from "./core/onStart.mjs"
 
-const addTask = document.querySelector('#add')
-const darkModeButton = document.querySelector('#darkMode')
 
-let taskArray = Local.getTasks('tasks') || []
-component.loadTasks(taskArray)
+export let taskArray = Local.getTasks('tasks') || []
 
-// Dark mode toggle
-darkModeButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode')
-})
+onStart()
 
-addTask.addEventListener('click', () => {
-    component.form.style = "left: 0%;"
-})
 
-component.submitForm.addEventListener('click', (event) => {
-    event.preventDefault()
-    component.showForm('tasks', taskArray)
-})
 
-export { taskArray }
+
+
+

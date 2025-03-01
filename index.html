@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,18 +21,17 @@
         <button id="darkMode"><i class="fa fa-moon-o" style="font-size:20px;color:white;"></i></button>
     </div>
     <div class="searchbar">
-        <input type="search" name="search" id="search" placeholder="Search...">
-        <i class="fa fa-search" style="font-size:23px;color:rgb(255, 255, 255)"></i>
+        <input type="text" name="search" id="search" placeholder="Search...">
+        <i type="submit" id="submitSearch" class="fa fa-search" style="font-size:23px;color:rgb(255, 255, 255)"></i>
     </div>
 
-    
     <template>
         <div class="case">
             <h1></h1>
             <p></p>
             <div class="check">
                 <label class="container">
-                    <input type="checkbox" checked="checked">
+                    <input id="taskCheck" type="checkbox" checked="check">
                     <span class="checkmark"></span>
                   </label>
                 <button id="supp_element"><i class="fa fa-close"></i></button>
