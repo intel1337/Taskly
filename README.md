@@ -2,9 +2,39 @@
 
 ### MONGODB IS EXPERIMENTAL AND NOT STABLE
 
-# Preview 
+<h1 align="center">Taskly</h1>
 
-![tasklylogo](https://github.com/user-attachments/assets/24d68d86-9f91-4e2d-b74c-21b215939815)
+<p align="center">
+
+
+  <br>
+  <em>Taskly is a simple and lightweight To Do List App
+    </em>
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://github.com/intel1337/Taskly/"><strong>Github Repo</strong></a>
+  <br>
+</p>
+
+<p align="center">
+  <a href="LICENSE">Terms of Service</a>
+  ·
+  <a href="https://github.com/intel1337/Taskly/issues">Submit an Issue</a>
+  ·
+  <a href="https://github.com/intel1337/Taskly/wiki">Documentation</a>
+  <br>
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://github.com/intel1337/Taskly/releases">
+    <img src="https://img.shields.io/badge/Get-Taskly-blue" alt="Blocky Clcker" />
+    
+  </a>&nbsp;
+</p>
+![tasklylogo](https://github.com/user-attachments/assets/6065349e-ac10-4c58-b35a-f891c2416bb9)
 
 
 
