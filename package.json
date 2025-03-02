@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.14.0",
+    "mongoose": "^8.11.0"
+  },
+  "scripts": {
+    "start": "node C:/Users/0x1337/Desktop/Taskly/src/services/server/server.js"
+  }
+}

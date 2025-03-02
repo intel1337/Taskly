@@ -1,7 +1,7 @@
 import { Buttons } from "../src/components/events/Buttons.js"
 import { loadTasks } from "../src/view/Display.js"
 import { taskArray } from "../App.js";
-import { Local } from "../src/services/db/Local.js";
+import { Local } from "../src/services/local/Local.js";
 import { Components } from "../src/components/Components.js";
 
 export function onStart(){

@@ -1,7 +1,7 @@
 import { Components } from "../Components.js"
 import { Form } from "../Form.js"
 import { taskArray } from "../../../App.js"
-import { Local, Manager } from "../../services/db/Local.js"
+import { Local, Manager } from "../../services/local/Local.js"
 
 export class Buttons {
     static init(count){

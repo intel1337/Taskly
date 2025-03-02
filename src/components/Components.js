@@ -1,6 +1,6 @@
 import { taskArray } from "../../App.js";
-import { Local } from "../services/db/Local.js";
-import { Manager } from "../services/db/Local.js";
+import { Local } from "../services/local/Local.js";
+import { Manager } from "../services/local/Local.js";
 
 
 class Components {
@@ -42,8 +42,17 @@ class Components {
           
         })
     };
+    
+    static clearTasks() {
+        const taskElements = document.querySelectorAll('.case');
+        taskElements.forEach(task => {
+            task.remove();
+        });
+    }
+
     static searchTask(tasks){
         let query = Components.native.searchbar.value;
+        Components.clearTasks(); 
         if(query === ''){
             tasks.forEach(element => {
                 Components.createTask(element.title, element.desc);
@@ -51,9 +60,7 @@ class Components {
         } else {
             tasks.forEach(element => {
                 let result = element.title.includes(query) || element.desc.includes(query);
-                if(result === false){
-                    
-                } else {
+                if(result===true){
                     Components.createTask(element.title, element.desc);
                 }
             });

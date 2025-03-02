@@ -1,6 +1,6 @@
 import { Task } from "./Task.js"
 import { Components } from "./Components.js";
-import { Local } from "../services/db/Local.js";
+import { Local } from "../services/local/Local.js";
 import { taskArray } from "../../App.js";
 
 class Form {
