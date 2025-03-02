@@ -1,6 +1,13 @@
 # Taskly
 
-### MONGODB IS EXPERIMENTAL AND MEANT TO BE USED ON WINDOWS
+### MONGODB IS EXPERIMENTAL AND NOT STABLE
+
+# Preview 
+
+![tasklylogo](https://github.com/user-attachments/assets/24d68d86-9f91-4e2d-b74c-21b215939815)
+
+
+
 ```bash
 Taskly/
 │── public/           
