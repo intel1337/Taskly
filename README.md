@@ -36,7 +36,8 @@
 </p>
 
 
-![tasklylogo](https://github.com/user-attachments/assets/6065349e-ac10-4c58-b35a-f891c2416bb9)
+![tasklylogo](https://github.com/user-attachments/assets/817c8516-060d-4ff3-be8f-1e3e686c2b29)
+
 
 
 
