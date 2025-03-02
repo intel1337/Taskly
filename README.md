@@ -1,8 +1,8 @@
 # Taskly
 
 ### MONGODB IS EXPERIMENTAL AND MEANT TO BE USED ON WINDOWS
-
-todo-list-spa/
+```bash
+Taskly/
 │── public/           
 │   ├── index.html                # Main HTML file
 │   ├── styles.css                # Styles for the application
@@ -25,3 +25,4 @@ todo-list-spa/
 │── package.json                   # Dependencies
 │── README.md                      # Documentation
 │── .env                           # Environment variables
+```
