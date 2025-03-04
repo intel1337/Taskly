@@ -5,7 +5,8 @@
     "mongoose": "^8.11.0"
   },
   "scripts": {
-    "start": "node C:/Users/0x1337/Desktop/Taskly/src/services/server/server.js",
+    "startwindows": "node C:/Users/0x1337/Desktop/Taskly/src/services/server/server.js",
+    "startMongo": "node ./src/services/database/mongo.mjs",
     "build": "node ./src/services/server/server.js",
     "test":  "node ./src/services/server/server.js && node ./src/services/database/mongo.mjs"
   }
